@@ -13,7 +13,7 @@ st.set_page_config(page_title="DASHBOARD DE ANÁLISE DE CRÉDITO", layout="wide"
 # Função para criar o dataset
 def create_dataset():
     np.random.seed(42)
-    n = 10000  # Número de clientes
+    n = 1000  # Número de clientes
     data = {
         "ID_CLIENTE": range(1, n + 1),
         "IDADE": np.random.randint(18, 81, n),
